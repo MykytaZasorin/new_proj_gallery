@@ -10,3 +10,18 @@
 .main-ref:hover {
   color: teal;
 }
+
+.forms {
+  padding-top: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 15px;
+}
+.form {
+  border: solid 2px black;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

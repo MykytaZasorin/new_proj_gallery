@@ -10,3 +10,10 @@
 .main-ref:hover {
   color: teal;
 }
+
+.form {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  padding-top: 30px;
+}

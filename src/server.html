@@ -7,6 +7,71 @@
     <link rel="stylesheet" href="./css/server.css" />
   </head>
   <body>
-    <a class="main-ref" href="./index.html">Main page</a>
+    <header><a class="main-ref" href="./index.html">Main page</a></header>
+    <main>
+      <div class="forms">
+        <form class="form">
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="get-id" />
+          </div>
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="get-title" />
+          </div>
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="get-author" />
+          </div>
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="get-rating" />
+          </div>
+          <button type="submit" class="btn btn-primary">GET</button>
+        </form>
+        <form class="form">
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="post-id" />
+          </div>
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="post-title" />
+          </div>
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="post-author" />
+          </div>
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="post-rating" />
+          </div>
+          <button type="submit" class="btn btn-primary">POST</button>
+        </form>
+        <form class="form">
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="change-id" />
+          </div>
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="change-title" />
+          </div>
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="change-author" />
+          </div>
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="change-rating" />
+          </div>
+          <button type="submit" class="btn btn-primary">UPD/PTCH</button>
+        </form>
+        <form class="form">
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="delete-id" />
+          </div>
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="delete-title" />
+          </div>
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="delete-author" />
+          </div>
+          <div class="form-group m-2">
+            <input type="text" class="form-control" name="delete-rating" />
+          </div>
+          <button type="submit" class="btn btn-primary">DELETE</button>
+        </form>
+      </div>
+      <ul class="server-list"></ul>
+    </main>
   </body>
 </html>
