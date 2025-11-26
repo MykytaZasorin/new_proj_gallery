@@ -4,9 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery</title>
-    <link rel="stylesheet" crossorigin href="/new_proj_gallery/assets/server-D8Gr3UVx.css">
+    <link rel="stylesheet" crossorigin href="/new_proj_gallery/assets/gallery-CVuQyIBX.css">
   </head>
   <body>
-    <a class="main-ref" href="./index.html">Main page</a>
+    <header><a class="main-ref" href="./index.html">Main page</a></header>
+    <main>
+      <form class="form js-form">
+        <label>
+          <input
+            type="text"
+            name="search-text"
+            placeholder="Search images..."
+            required
+          />
+        </label>
+        <button type="submit">Search</button>
+      </form>
+
+      <span class="loader hidden js-loader"></span>
+
+      <ul class="gallery js-gallery"></ul>
+    </main>
   </body>
 </html>
